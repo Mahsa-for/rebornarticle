@@ -1,0 +1,2166 @@
+{
+  "@id": "_:n1",
+  "@type": "doi:feeb33ad3e4440682a4d",
+  "doi:feeb33ad3e4440682a4d#has_part": {
+    "@id": "_:n2",
+    "@type": "doi:b9335ce2c99ed87735a6",
+    "doi:b9335ce2c99ed87735a6#label": "Group comparison with petal length dependent variable for setosa and virginica irises",
+    "doi:b9335ce2c99ed87735a6#executes": {
+      "@id": "_:n3",
+      "@type": "doi:abef9f1c0d48853f3e51",
+      "doi:abef9f1c0d48853f3e51#label": "ttest_ind",
+      "doi:abef9f1c0d48853f3e51#part_of": {
+        "@id": "_:n4",
+        "@type": "doi:4b99260369df9110f9bd",
+        "doi:4b99260369df9110f9bd#label": "scipy",
+        "doi:4b99260369df9110f9bd#version_info": "1.15.1",
+        "doi:4b99260369df9110f9bd#part_of": {
+          "@id": "_:n5",
+          "@type": "doi:c981d125d1a564c9f573",
+          "doi:c981d125d1a564c9f573#label": "Python",
+          "doi:c981d125d1a564c9f573#version_info": "3.12.5",
+          "doi:c981d125d1a564c9f573#has_support_url": "https://www.python.org"
+        },
+        "doi:4b99260369df9110f9bd#has_support_url": "https://docs.scipy.org/doc/scipy/index.html"
+      },
+      "doi:abef9f1c0d48853f3e51#is_implemented_by": "ttest_ind(x, y, equal_var = False)",
+      "doi:abef9f1c0d48853f3e51#has_support_url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html"
+    },
+    "doi:b9335ce2c99ed87735a6#targets": {
+      "@id": "_:n6",
+      "@type": "doi:cceac5fb8acf5ade2bf5",
+      "doi:cceac5fb8acf5ade2bf5#label": "petal length (cm)"
+    },
+    "doi:b9335ce2c99ed87735a6#has_input": {
+      "@id": "_:n7",
+      "@type": "doi:aff130c76e68ead3862e",
+      "doi:aff130c76e68ead3862e#label": "Iris data set with species and petal length",
+      "doi:aff130c76e68ead3862e#source_table": {
+        "@type": "doi:0424f6e7026fa4bc2c4a",
+        "tab_label": "Table",
+        "columns": [
+          {
+            "@type": "doi:65ba00e95e60fb8971e6",
+            "col_number": 1,
+            "col_titles": "petal length (cm)",
+            "@id": "_:n8"
+          },
+          {
+            "@type": "doi:65ba00e95e60fb8971e6",
+            "col_number": 2,
+            "col_titles": "species",
+            "@id": "_:n9"
+          }
+        ],
+        "rows": [
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 1,
+            "row_titles": "0",
+            "@id": "_:n10",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n11",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n12",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 2,
+            "row_titles": "1",
+            "@id": "_:n13",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n14",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n15",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 3,
+            "row_titles": "2",
+            "@id": "_:n16",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n17",
+                "value": "1.3",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n18",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 4,
+            "row_titles": "3",
+            "@id": "_:n19",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n20",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n21",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 5,
+            "row_titles": "4",
+            "@id": "_:n22",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n23",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n24",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 6,
+            "row_titles": "5",
+            "@id": "_:n25",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n26",
+                "value": "1.7",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n27",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 7,
+            "row_titles": "6",
+            "@id": "_:n28",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n29",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n30",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 8,
+            "row_titles": "7",
+            "@id": "_:n31",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n32",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n33",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 9,
+            "row_titles": "8",
+            "@id": "_:n34",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n35",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n36",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 10,
+            "row_titles": "9",
+            "@id": "_:n37",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n38",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n39",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 11,
+            "row_titles": "10",
+            "@id": "_:n40",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n41",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n42",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 12,
+            "row_titles": "11",
+            "@id": "_:n43",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n44",
+                "value": "1.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n45",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 13,
+            "row_titles": "12",
+            "@id": "_:n46",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n47",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n48",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 14,
+            "row_titles": "13",
+            "@id": "_:n49",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n50",
+                "value": "1.1",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n51",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 15,
+            "row_titles": "14",
+            "@id": "_:n52",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n53",
+                "value": "1.2",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n54",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 16,
+            "row_titles": "15",
+            "@id": "_:n55",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n56",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n57",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 17,
+            "row_titles": "16",
+            "@id": "_:n58",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n59",
+                "value": "1.3",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n60",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 18,
+            "row_titles": "17",
+            "@id": "_:n61",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n62",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n63",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 19,
+            "row_titles": "18",
+            "@id": "_:n64",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n65",
+                "value": "1.7",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n66",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 20,
+            "row_titles": "19",
+            "@id": "_:n67",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n68",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n69",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 21,
+            "row_titles": "20",
+            "@id": "_:n70",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n71",
+                "value": "1.7",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n72",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 22,
+            "row_titles": "21",
+            "@id": "_:n73",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n74",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n75",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 23,
+            "row_titles": "22",
+            "@id": "_:n76",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n77",
+                "value": "1.0",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n78",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 24,
+            "row_titles": "23",
+            "@id": "_:n79",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n80",
+                "value": "1.7",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n81",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 25,
+            "row_titles": "24",
+            "@id": "_:n82",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n83",
+                "value": "1.9",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n84",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 26,
+            "row_titles": "25",
+            "@id": "_:n85",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n86",
+                "value": "1.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n87",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 27,
+            "row_titles": "26",
+            "@id": "_:n88",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n89",
+                "value": "1.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n90",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 28,
+            "row_titles": "27",
+            "@id": "_:n91",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n92",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n93",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 29,
+            "row_titles": "28",
+            "@id": "_:n94",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n95",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n96",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 30,
+            "row_titles": "29",
+            "@id": "_:n97",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n98",
+                "value": "1.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n99",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 31,
+            "row_titles": "30",
+            "@id": "_:n100",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n101",
+                "value": "1.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n102",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 32,
+            "row_titles": "31",
+            "@id": "_:n103",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n104",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n105",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 33,
+            "row_titles": "32",
+            "@id": "_:n106",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n107",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n108",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 34,
+            "row_titles": "33",
+            "@id": "_:n109",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n110",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n111",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 35,
+            "row_titles": "34",
+            "@id": "_:n112",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n113",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n114",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 36,
+            "row_titles": "35",
+            "@id": "_:n115",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n116",
+                "value": "1.2",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n117",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 37,
+            "row_titles": "36",
+            "@id": "_:n118",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n119",
+                "value": "1.3",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n120",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 38,
+            "row_titles": "37",
+            "@id": "_:n121",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n122",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n123",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 39,
+            "row_titles": "38",
+            "@id": "_:n124",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n125",
+                "value": "1.3",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n126",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 40,
+            "row_titles": "39",
+            "@id": "_:n127",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n128",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n129",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 41,
+            "row_titles": "40",
+            "@id": "_:n130",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n131",
+                "value": "1.3",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n132",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 42,
+            "row_titles": "41",
+            "@id": "_:n133",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n134",
+                "value": "1.3",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n135",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 43,
+            "row_titles": "42",
+            "@id": "_:n136",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n137",
+                "value": "1.3",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n138",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 44,
+            "row_titles": "43",
+            "@id": "_:n139",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n140",
+                "value": "1.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n141",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 45,
+            "row_titles": "44",
+            "@id": "_:n142",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n143",
+                "value": "1.9",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n144",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 46,
+            "row_titles": "45",
+            "@id": "_:n145",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n146",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n147",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 47,
+            "row_titles": "46",
+            "@id": "_:n148",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n149",
+                "value": "1.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n150",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 48,
+            "row_titles": "47",
+            "@id": "_:n151",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n152",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n153",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 49,
+            "row_titles": "48",
+            "@id": "_:n154",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n155",
+                "value": "1.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n156",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 50,
+            "row_titles": "49",
+            "@id": "_:n157",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n158",
+                "value": "1.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n159",
+                "value": "setosa",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 51,
+            "row_titles": "100",
+            "@id": "_:n160",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n161",
+                "value": "6.0",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n162",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 52,
+            "row_titles": "101",
+            "@id": "_:n163",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n164",
+                "value": "5.1",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n165",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 53,
+            "row_titles": "102",
+            "@id": "_:n166",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n167",
+                "value": "5.9",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n168",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 54,
+            "row_titles": "103",
+            "@id": "_:n169",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n170",
+                "value": "5.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n171",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 55,
+            "row_titles": "104",
+            "@id": "_:n172",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n173",
+                "value": "5.8",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n174",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 56,
+            "row_titles": "105",
+            "@id": "_:n175",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n176",
+                "value": "6.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n177",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 57,
+            "row_titles": "106",
+            "@id": "_:n178",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n179",
+                "value": "4.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n180",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 58,
+            "row_titles": "107",
+            "@id": "_:n181",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n182",
+                "value": "6.3",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n183",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 59,
+            "row_titles": "108",
+            "@id": "_:n184",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n185",
+                "value": "5.8",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n186",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 60,
+            "row_titles": "109",
+            "@id": "_:n187",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n188",
+                "value": "6.1",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n189",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 61,
+            "row_titles": "110",
+            "@id": "_:n190",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n191",
+                "value": "5.1",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n192",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 62,
+            "row_titles": "111",
+            "@id": "_:n193",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n194",
+                "value": "5.3",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n195",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 63,
+            "row_titles": "112",
+            "@id": "_:n196",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n197",
+                "value": "5.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n198",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 64,
+            "row_titles": "113",
+            "@id": "_:n199",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n200",
+                "value": "5.0",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n201",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 65,
+            "row_titles": "114",
+            "@id": "_:n202",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n203",
+                "value": "5.1",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n204",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 66,
+            "row_titles": "115",
+            "@id": "_:n205",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n206",
+                "value": "5.3",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n207",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 67,
+            "row_titles": "116",
+            "@id": "_:n208",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n209",
+                "value": "5.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n210",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 68,
+            "row_titles": "117",
+            "@id": "_:n211",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n212",
+                "value": "6.7",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n213",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 69,
+            "row_titles": "118",
+            "@id": "_:n214",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n215",
+                "value": "6.9",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n216",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 70,
+            "row_titles": "119",
+            "@id": "_:n217",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n218",
+                "value": "5.0",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n219",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 71,
+            "row_titles": "120",
+            "@id": "_:n220",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n221",
+                "value": "5.7",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n222",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 72,
+            "row_titles": "121",
+            "@id": "_:n223",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n224",
+                "value": "4.9",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n225",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 73,
+            "row_titles": "122",
+            "@id": "_:n226",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n227",
+                "value": "6.7",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n228",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 74,
+            "row_titles": "123",
+            "@id": "_:n229",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n230",
+                "value": "4.9",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n231",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 75,
+            "row_titles": "124",
+            "@id": "_:n232",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n233",
+                "value": "5.7",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n234",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 76,
+            "row_titles": "125",
+            "@id": "_:n235",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n236",
+                "value": "6.0",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n237",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 77,
+            "row_titles": "126",
+            "@id": "_:n238",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n239",
+                "value": "4.8",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n240",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 78,
+            "row_titles": "127",
+            "@id": "_:n241",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n242",
+                "value": "4.9",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n243",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 79,
+            "row_titles": "128",
+            "@id": "_:n244",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n245",
+                "value": "5.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n246",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 80,
+            "row_titles": "129",
+            "@id": "_:n247",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n248",
+                "value": "5.8",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n249",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 81,
+            "row_titles": "130",
+            "@id": "_:n250",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n251",
+                "value": "6.1",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n252",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 82,
+            "row_titles": "131",
+            "@id": "_:n253",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n254",
+                "value": "6.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n255",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 83,
+            "row_titles": "132",
+            "@id": "_:n256",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n257",
+                "value": "5.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n258",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 84,
+            "row_titles": "133",
+            "@id": "_:n259",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n260",
+                "value": "5.1",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n261",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 85,
+            "row_titles": "134",
+            "@id": "_:n262",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n263",
+                "value": "5.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n264",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 86,
+            "row_titles": "135",
+            "@id": "_:n265",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n266",
+                "value": "6.1",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n267",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 87,
+            "row_titles": "136",
+            "@id": "_:n268",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n269",
+                "value": "5.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n270",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 88,
+            "row_titles": "137",
+            "@id": "_:n271",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n272",
+                "value": "5.5",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n273",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 89,
+            "row_titles": "138",
+            "@id": "_:n274",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n275",
+                "value": "4.8",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n276",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 90,
+            "row_titles": "139",
+            "@id": "_:n277",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n278",
+                "value": "5.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n279",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 91,
+            "row_titles": "140",
+            "@id": "_:n280",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n281",
+                "value": "5.6",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n282",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 92,
+            "row_titles": "141",
+            "@id": "_:n283",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n284",
+                "value": "5.1",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n285",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 93,
+            "row_titles": "142",
+            "@id": "_:n286",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n287",
+                "value": "5.1",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n288",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 94,
+            "row_titles": "143",
+            "@id": "_:n289",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n290",
+                "value": "5.9",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n291",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 95,
+            "row_titles": "144",
+            "@id": "_:n292",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n293",
+                "value": "5.7",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n294",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 96,
+            "row_titles": "145",
+            "@id": "_:n295",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n296",
+                "value": "5.2",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n297",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 97,
+            "row_titles": "146",
+            "@id": "_:n298",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n299",
+                "value": "5.0",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n300",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 98,
+            "row_titles": "147",
+            "@id": "_:n301",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n302",
+                "value": "5.2",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n303",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 99,
+            "row_titles": "148",
+            "@id": "_:n304",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n305",
+                "value": "5.4",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n306",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          },
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 100,
+            "row_titles": "149",
+            "@id": "_:n307",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n308",
+                "value": "5.1",
+                "column": "_:n8"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n309",
+                "value": "virginica",
+                "column": "_:n9"
+              }
+            ]
+          }
+        ],
+        "@id": "_:n310"
+      },
+      "doi:aff130c76e68ead3862e#has_part": [
+        {
+          "@id": "_:n311",
+          "@type": "doi:cceac5fb8acf5ade2bf5",
+          "doi:cceac5fb8acf5ade2bf5#label": "petal length (cm)"
+        },
+        {
+          "@id": "_:n312",
+          "@type": "doi:cceac5fb8acf5ade2bf5",
+          "doi:cceac5fb8acf5ade2bf5#label": "species"
+        }
+      ],
+      "doi:aff130c76e68ead3862e#has_characteristic": {
+        "@id": "_:n313",
+        "@type": "doi:31483624b5c80014b6c7",
+        "doi:31483624b5c80014b6c7#number_of_rows": 100,
+        "doi:31483624b5c80014b6c7#number_of_columns": 2
+      }
+    },
+    "doi:b9335ce2c99ed87735a6#has_output": {
+      "@id": "_:n314",
+      "@type": "doi:aff130c76e68ead3862e",
+      "doi:aff130c76e68ead3862e#source_table": {
+        "@type": "doi:0424f6e7026fa4bc2c4a",
+        "tab_label": "Table",
+        "columns": [
+          {
+            "@type": "doi:65ba00e95e60fb8971e6",
+            "col_number": 1,
+            "col_titles": "t.statistic",
+            "@id": "_:n315"
+          },
+          {
+            "@type": "doi:65ba00e95e60fb8971e6",
+            "col_number": 2,
+            "col_titles": "p.value",
+            "@id": "_:n316"
+          }
+        ],
+        "rows": [
+          {
+            "@type": "doi:9bf7a8e8909bfd491b38",
+            "row_number": 1,
+            "row_titles": "0",
+            "@id": "_:n317",
+            "cells": [
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n318",
+                "value": "-49.98618625709594",
+                "column": "_:n315"
+              },
+              {
+                "@type": "doi:4607bc7c42ac8db29bfc",
+                "@id": "_:n319",
+                "value": "9.26962758534569e-50",
+                "column": "_:n316"
+              }
+            ]
+          }
+        ],
+        "@id": "_:n320"
+      },
+      "doi:aff130c76e68ead3862e#has_part": [
+        {
+          "@id": "_:n321",
+          "@type": "doi:cceac5fb8acf5ade2bf5",
+          "doi:cceac5fb8acf5ade2bf5#label": "t.statistic"
+        },
+        {
+          "@id": "_:n322",
+          "@type": "doi:cceac5fb8acf5ade2bf5",
+          "doi:cceac5fb8acf5ade2bf5#label": "df"
+        },
+        {
+          "@id": "_:n323",
+          "@type": "doi:cceac5fb8acf5ade2bf5",
+          "doi:cceac5fb8acf5ade2bf5#label": "p.value"
+        }
+      ],
+      "doi:aff130c76e68ead3862e#has_characteristic": {
+        "@id": "_:n324",
+        "@type": "doi:31483624b5c80014b6c7",
+        "doi:31483624b5c80014b6c7#number_of_rows": 1,
+        "doi:31483624b5c80014b6c7#number_of_columns": 2
+      },
+      "doi:aff130c76e68ead3862e#has_expression": {
+        "@id": "_:n325",
+        "@type": "doi:1f20e66b17a6eb7c2baf",
+        "doi:1f20e66b17a6eb7c2baf#source_url": "data-analysis-1.png"
+      }
+    }
+  },
+  "doi:feeb33ad3e4440682a4d#is_implemented_by": "data-analysis-1.py",
+  "@context": {
+    "doi": "https://doi.org/21.T11969/",
+    "columns": "https://doi.org/21.T11969/0424f6e7026fa4bc2c4a#columns",
+    "col_number": "https://doi.org/21.T11969/65ba00e95e60fb8971e6#number",
+    "col_titles": "https://doi.org/21.T11969/65ba00e95e60fb8971e6#titles",
+    "rows": "https://doi.org/21.T11969/0424f6e7026fa4bc2c4a#rows",
+    "row_number": "https://doi.org/21.T11969/9bf7a8e8909bfd491b38#number",
+    "row_titles": "https://doi.org/21.T11969/9bf7a8e8909bfd491b38#titles",
+    "cells": "https://doi.org/21.T11969/9bf7a8e8909bfd491b38#cells",
+    "column": "https://doi.org/21.T11969/4607bc7c42ac8db29bfc#column",
+    "value": "https://doi.org/21.T11969/4607bc7c42ac8db29bfc#value",
+    "tab_label": "https://doi.org/21.T11969/0424f6e7026fa4bc2c4a#label"
+  }
+}
